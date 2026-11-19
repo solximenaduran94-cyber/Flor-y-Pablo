@@ -57,7 +57,7 @@ export const GiftAliasCard: React.FC<GiftAliasCardProps> = ({ onShowToast }) => 
             <Gift className="w-7 h-7 text-[#9E7B42]" />
           </div>
           <span className="block text-xs font-cinzel uppercase tracking-[0.35em] text-[#9E7B42] font-semibold">
-            Lluvia de Sobres & Buenos Deseos
+            Obsequios &amp; Buenos Deseos
           </span>
           <h3 className="font-cinzel text-2xl sm:text-3xl text-[#3C2F23] font-bold tracking-wide mt-1">
             Lluvia de Sobres
@@ -67,7 +67,7 @@ export const GiftAliasCard: React.FC<GiftAliasCardProps> = ({ onShowToast }) => 
 
         <p className="text-center text-[#5E4D3E] text-sm sm:text-base font-body max-w-md mx-auto leading-relaxed font-medium">
           Nuestro mayor y mejor regalo es tu presencia en este día tan especial.
-          Si deseás hacernos un presente en nuestra lluvia de sobres, podés hacerlo a través de transferencia bancaria:
+          Si deseás hacernos un presente, podés hacerlo a través de transferencia bancaria:
         </p>
 
         {/* Bank Transfer Details Card */}
