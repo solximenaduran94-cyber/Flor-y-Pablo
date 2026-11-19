@@ -1,6 +1,6 @@
 {
   "name": "Casamiento Pablo y Flor",
-  "description": "",
+  "description": "Celebrá con Pablo y Flor su casamiento el 13 de febrero de 2027 en Lo de Charly. Confirmá tu asistencia y conocé todos los detalles.",
   "requestFramePermissions": [],
   "majorCapabilities": [
     "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"

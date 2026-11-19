@@ -5,7 +5,21 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
-    plugins: [react(), tailwindcss()],
+    plugins: [
+      react(),
+      tailwindcss(),
+      {
+        name: 'inject-og-origin',
+        transformIndexHtml(html) {
+          const rawAppUrl = process.env.APP_URL;
+          const origin =
+            rawAppUrl && rawAppUrl !== 'MY_APP_URL'
+              ? rawAppUrl.replace(/\/+$/, '')
+              : '';
+          return html.replace(/__APP_ORIGIN__/g, origin);
+        },
+      },
+    ],
     resolve: {
       alias: {
         '@': path.resolve(__dirname, '.'),

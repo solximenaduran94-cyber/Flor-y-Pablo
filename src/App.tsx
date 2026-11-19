@@ -25,7 +25,12 @@ export default function App() {
   const [isPassModalOpen, setIsPassModalOpen] = useState(false);
 
   useEffect(() => {
-    document.title = 'Pablo & Flor | Nuestra Boda 🌿';
+    document.title = 'Pablo & Flor | Nuestra Boda · 13 de Febrero 2027';
+    const currentUrl = window.location.origin + window.location.pathname;
+    const ogUrlMeta = document.querySelector('meta[property="og:url"]');
+    if (ogUrlMeta) ogUrlMeta.setAttribute('content', currentUrl);
+    const canonicalLink = document.querySelector('link[rel="canonical"]');
+    if (canonicalLink) canonicalLink.setAttribute('href', currentUrl);
   }, []);
 
   const showToast = (msg: string) => {
