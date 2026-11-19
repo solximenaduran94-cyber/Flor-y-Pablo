@@ -66,8 +66,7 @@ export const GiftAliasCard: React.FC<GiftAliasCardProps> = ({ onShowToast }) => 
         </div>
 
         <p className="text-center text-[#5E4D3E] text-sm sm:text-base font-body max-w-md mx-auto leading-relaxed font-medium">
-          Nuestro mayor y mejor regalo es tu presencia en este día tan especial.
-          Si deseás hacernos un presente, podés hacerlo a través de transferencia bancaria:
+          Nuestro mayor y mejor regalo es compartir este día tan especial con vos. Si deseás sumarte a nuestra próxima aventura y hacernos un presente para nuestra luna de miel, cada detalle nos acercará a vivir recuerdos inolvidables juntos:
         </p>
 
         {/* Bank Transfer Details Card */}
