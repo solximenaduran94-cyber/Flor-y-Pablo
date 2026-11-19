@@ -12,7 +12,7 @@ export const GiftAliasCard: React.FC<GiftAliasCardProps> = ({ onShowToast }) => 
   const [copiedAll, setCopiedAll] = useState(false);
 
   const bankDetails = {
-    alias: 'florencia.curra.1',
+    alias: 'PabloyFlor.2027',
     cbu: '0140066303500656424937',
     titular: 'Florencia Belen Curra',
     entity: 'Banco Provincia',
